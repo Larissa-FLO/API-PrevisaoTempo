@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxMaior{
+    padding: 60px;
+    background: linear-gradient(180deg, rgba(55,6,2,0.9752275910364145) 0%, rgba(60,16,11,0.8687850140056023) 28%, rgba(69,47,46,0.76234243697479) 59%, rgba(80,57,55,0.6839110644257703) 84%, rgba(92,76,75,0.5550595238095238) 100%, rgba(92,76,75,0.44021358543417366) 100%);
+    border-radius: 15px;
+    opacity: 80%;
+    color: azure;
+}
+
+.inputCidade{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+
+.tituloCidade{
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+}
+
+.boxMenor{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.graus{
+    text-align: center;
+    font-weight: 350;
+    font-size: xx-large;
+}
+
+.umidade{
+    font-weight: 300;
+    text-align: right;
+    font-size: large;
+}
+
+.textoPrevisao{
+    margin: 0;
+}
